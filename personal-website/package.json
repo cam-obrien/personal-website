@@ -9,17 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "daisyui": "^2.42.1",
     "next": "13.0.5",
     "next-auth": "^4.17.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-daisyui": "^4.0.4",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "usehooks-ts": "^2.9.1"
   },
   "devDependencies": {
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "autoprefixer": "^10.4.13",
+    "daisyui": "^3.5.1",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.5",
     "postcss": "^8.4.19",
