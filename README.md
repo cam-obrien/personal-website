@@ -1,2 +1,4 @@
-# personal-website
-New Personal Website created with Next.js, TypeScript, and Tailwind CSS
+# New Personal Website
+
+## Tech Stack
+Next.js, TypeScript, Tailwind CSS
