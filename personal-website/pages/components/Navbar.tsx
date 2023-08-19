@@ -7,7 +7,7 @@ const Navbar = () => {
 
 
   return (
-        <div className="navbar text-primary">
+        <div className="navbar text-primary ">
         <SwitchTheme/>
 
         <div className="flex-1">

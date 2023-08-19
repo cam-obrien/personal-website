@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "title": "Open Source Classroom Polling Software",
+            "techStack": "Python, Django, React.js, Bootstrap",
+            "description": "Description 1"
+        },
+        {
+            "title": "Spotify Mobile Wrapped App",
+            "techStack": "Kotlin, XML, Android Studio",
+            "description": "Description 2"
+        }
+    ]
+}

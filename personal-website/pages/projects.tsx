@@ -1,12 +1,22 @@
+import { useEffect } from 'react';
+import data from './data/projects-data.json'
+
+
 const ProjectsPage = () => {
+
     return(
-        <div className="container">
-        <div className="grid place-content-center min-h-screen">
-          <div className="flex flex-col items-center gap-4">
-            <h1 className="text-4xl my-8">Projects</h1>
-          </div>
+        <div className="card w-auto bg-base-100 shadow-xl">
+        {data.projects.map((project, index) => (
+            <div className="card-body">
+            <h2 className="card-title">{project.title}</h2>
+            <p>{project.techStack}</p>
+            <div className="card-actions justify-end">
+            <button className="btn btn-primary">View More</button>
+            </div>
         </div>
-      </div>
+        ))}
+
+        </div>
 
     );
 }
