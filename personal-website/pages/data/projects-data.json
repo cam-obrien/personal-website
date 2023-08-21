@@ -1,5 +1,6 @@
 {
     "projects": [
+        
         {
             "title": "Open Source Classroom Polling Software",
             "techStack": "Python, Django, React.js, Bootstrap",
@@ -7,8 +8,23 @@
         },
         {
             "title": "Spotify Mobile Wrapped App",
-            "techStack": "Kotlin, XML, Android Studio",
+            "techStack": "Kotlin, Android Studio, Spotify API",
             "description": "Description 2"
+        },
+        {
+            "title": "AI Pacman",
+            "techStack": "Python, Godot",
+            "description": "Description 3"
+        },
+        {
+            "title": "Anonymous Job Board for Migrant Workers",
+            "techStack": "Figma, Jira, Heuristic Evaluations",
+            "description": "Description 3"
+        },
+        {
+            "title": "Retail Databases Interface",
+            "techStack": "Python, Flask, MySQL",
+            "description": "Description 4"
         }
     ]
 }
